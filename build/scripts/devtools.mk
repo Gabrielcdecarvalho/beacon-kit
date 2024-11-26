@@ -4,7 +4,7 @@
 bet: build format test-unit ## yo bet
 	@git add .
 	@git commit -m 'bet'
-	@git push
+	@git push 
 
 checkpoint: format  ## checkpoint and push to remote
 	@git add -A
